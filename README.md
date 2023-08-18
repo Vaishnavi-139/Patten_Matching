@@ -1,6 +1,23 @@
 # Patten_Matching
 
 1 Background
+
+
+
+The project involved devising an efficient string pattern matching algorithm, modPatternMatch(q,p,x), that identifies occurrences of a pattern p in a document x using only O(log n + log q) memory and O(n log2 q) time, with controlled false-positive probability. The algorithm employs random prime numbers to achieve a similar time complexity as the Knuth-Morris-Pratt algorithm while minimizing memory usage.
+
+
+
+
+
+
+
+
+
+
+
+
+
 Consider the basic pattern matching problem discussed in class: given a string p of length m (a.k.a. the
 pattern) and a string x of length n (a.k.a the document), the task is to find all occurrences of p in x.
 Assume m ≤ n. We saw in class that a na¨ıve algorithm for this takes O(mn) time, whereas the smarter
